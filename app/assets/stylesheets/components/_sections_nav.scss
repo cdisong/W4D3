@@ -1,0 +1,47 @@
+// World
+// San Francisco
+// New York
+// Bootcamp Prep
+// Jumpstart
+// Online
+// Marketing
+// Sales
+// TalentMatch
+// Alumni
+// All
+
+.sectionhead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 5px black;
+
+}
+
+
+.section-nav {
+  // position: center;
+	// top: 15px;
+	// left: ;
+	// border: 1px solid $light-gray;
+	border-bottom: 2px black;
+  width: 100%;
+	// border-top-left-radius: 3px;
+	// border-top-right-radius: 3px;
+  // margin: px;
+
+
+}
+
+.section-nav a {
+  font-family: $sans-serif;
+  font-size: 12px;
+
+}
+.section-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
